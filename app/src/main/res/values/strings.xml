@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SaySorry</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_setting">SettingsActivity</string>
+    <string name="title_activity_info">InfoActivity</string>
+    <string name="title_activity_schedule">ScheduleActivity</string>
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_1">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bg_3"
+        />
+    <EditText
+        android:layout_width="fill_parent"
+        android:paddingLeft="10dp"
+        android:elevation="15dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_below="@+id/tv_info"
+        android:background="@drawable/edittext_bg"
+        android:layout_height="50dp"
+        android:textSize="15sp"
+        android:layout_marginTop="50dp"
+        android:textColorHint="@android:color/holo_blue_dark"
+        android:textColor="@android:color/holo_blue_dark"
+        android:capitalize="sentences"
+        android:layout_centerHorizontal="true"
+        android:hint="Your name"
+        android:id="@+id/et_name"/>
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/back"
+        android:layout_margin="10dp"
+        android:adjustViewBounds="true"
+        android:padding="20dp"
+        android:id="@+id/iv_back"/>
+
+    <Spinner
+        android:id="@+id/spinner_language"
+        android:layout_width="fill_parent"
+        android:layout_below="@+id/et_name"
+        android:layout_centerHorizontal="true"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:elevation="15dp"
+
+        android:background="@drawable/edittext_bg"
+        />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:textSize="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:id="@+id/tv_info"
+        android:textColor="@android:color/white"
+        android:text="You can input some information so we can help you even better"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/edittext_bg"
+        android:text="Save"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/btn_save"
+        android:layout_marginRight="50dp"
+        android:elevation="15dp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/spinner_language"/>
+</RelativeLayout>

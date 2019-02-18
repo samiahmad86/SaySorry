@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_1">
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/back"
+        android:layout_margin="0dp"
+        android:adjustViewBounds="true"
+        android:padding="20dp"
+        android:id="@+id/iv_back"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bg_3"
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:textSize="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:id="@+id/tv_info"
+        android:textColor="@android:color/white"
+        android:text="Please rate your experience to help us to improve our service"/>
+
+    <RatingBar
+        android:rating="0"
+        android:stepSize="1"
+        android:numStars="5"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:theme="@style/RatingBar"
+        android:id="@+id/rb_rating"
+        android:layout_below="@+id/tv_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:elevation="20dp"
+        android:outlineProvider="bounds"
+        android:text="Submit"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/rb_rating"
+        android:id="@+id/btn_submit"
+        android:textColor="@android:color/holo_blue_dark"
+        />
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:text="skip"
+        android:textAllCaps="true"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btn_submit"
+        android:id="@+id/tv_skip"
+        android:textColor="@color/white"
+        />
+
+
+</RelativeLayout>
