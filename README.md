@@ -1,2 +1,3 @@
 # SaySorry
-Prototype of an Android app to learn different culture.
+A Android app to learn different culture (no back-end, only prototype)
+
